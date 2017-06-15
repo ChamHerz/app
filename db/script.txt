@@ -1,0 +1,47 @@
+{
+"id": 1,
+"name": "Adriel",
+"lastname": "Chambi",
+"email": "adrielchambers@gmail.com",
+"password": "1234"
+}
+
+{
+"id": 2,
+"name": "Juan",
+"lastname": "Gustamante",
+"email": "jaungustamante@gmail.com",
+"password": "4321"
+}
+
+{
+"id": 3,
+"name": "Alejandro",
+"lastname": "Fernandez",
+"email": "el_ferchu@gmail.com",
+"password": "unodostres"
+}
+
+{
+"id": 4,
+"name": "Mario",
+"lastname": "Pereyra",
+"email": "marito@gmail.com",
+"password": "reservado"
+}
+
+{
+"id": 5,
+"name": "Ulises",
+"lastname": "Quiroga",
+"email": "caulises@gmail.com",
+"password": "nolase"
+}
+
+{
+"id": 6,
+"name": "Marcelo",
+"lastname": "Betancor",
+"email": "beta@gmail.com",
+"password": "betan"
+}
