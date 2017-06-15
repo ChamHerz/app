@@ -1,0 +1,21 @@
+<h1>Cotizaciones</h1>
+<md-grid-list md-cols="4" md-row-height="100px">
+	<md-grid-tile>
+		<button type="button" ng-click="money_ctrl.reset();">Borrar LocalStorage</button>
+	</md-grid-tile>
+	<md-grid-tile>
+		<md-list flex="" role="list" class="flex">
+			<my-money-list money-list="money_ctrl.listadoPesos"></my-money-list>
+		</md-list>
+	</md-grid-tile>
+  <md-grid-tile>
+		<md-list flex="" role="list" class="flex">
+  		<my-money-list money-list="money_ctrl.listadoReal"></my-money-list>
+  	</md-list>
+  </md-grid-tile>
+  <md-grid-tile>
+		<md-list flex="" role="list" class="flex">
+  		<my-money-list money-list="money_ctrl.listadoDolar"></my-money-list>
+  	</md-list>
+  </md-grid-tile>
+</md-grid-list>

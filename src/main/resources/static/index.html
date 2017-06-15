@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/angular-material.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body ng-app="app">
+ 	<nav ng-controller="navCtrl as nav">
+     <ul>
+         <li ng-class="{marcado: nav.estoy('/')}">
+             <a href="#/">Cotizaciones</a>
+         </li>
+         <li ng-class="{marcado: nav.estoy('/descargas')}">
+             <a href="#/usuarios">Usuarios</a>
+         </li>
+         <li ng-class="{marcado: nav.estoy('/configuracion')}">
+             <a href="#/configuracion">Configuracion</a>
+         </li>
+     </ul>
+  </nav>
+  <hr />
+  
+  <div ng-view class="mi-view"></div>
+  
+  <script src="/lib/moment.min.js"></script>
+
+	<script src="/lib/angular.min.js"></script>
+	<script src="/lib/angular-route.min.js"></script>
+	<script src="/lib/angular-local-storage.min.js"></script>
+	
+	<script src="/lib/angular-aria.min.js"></script>
+	<script src="/lib/angular-animate.min.js"></script>
+	<script src="/lib/angular-material.min.js"></script>
+	
+	<script src="/js/component/my-user-detail/my-user-detail.js"></script>
+	<script src="/js/component/my-money-detail/my-money-detail.js"></script>
+	<script src="/js/component/my-money-list/my-money-list.js"></script>
+		
+	<script src="/js/app.js"></script>
+	
+	<script src="/js/controller/nav-ctrl.js"></script>
+	<script src="/js/controller/money-ctrl.js"></script>
+	<script src="/js/controller/user-ctrl.js"></script>
+	<script src="/js/controller/config-ctrl.js"></script>
+	
+	<script src="/js/service/user-svr.js"></script>
+	<script src="/js/service/money-svr.js"></script>
+	<script src="/js/service/money-rest.js"></script>
+	<script src="/js/config/config.js"></script>
+	<script src="/js/util/util.js"></script>
+
+</body>
+</html>

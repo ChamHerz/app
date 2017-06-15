@@ -1,12 +1,12 @@
-MyResftfullApp\controller\VirtualMindApplication.class
 MyResftfullApp\model\Monedas.class
 MyResftfullApp\model\Real.class
-MyResftfullApp\db\DataBase.class
-MyResftfullApp\model\Usuario.class
 MyResftfullApp\util\BancoProvincia.class
-MyResftfullApp\service\ServiceUsuarios.class
 MyResftfullApp\model\Dolar.class
 MyResftfullApp\model\Pesos.class
 MyResftfullApp\service\ServiceCotizacion.class
+MyResftfullApp\controller\VirtualMindApplication.class
+MyResftfullApp\db\DataBase.class
+MyResftfullApp\model\Usuario.class
+MyResftfullApp\service\ServiceUsuarios.class
 MyResftfullApp\controller\MainController.class
 MyResftfullApp\model\Moneda.class

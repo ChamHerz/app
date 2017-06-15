@@ -1,0 +1,16 @@
+<h1>Usuarios</h1>
+<md-content>
+	<md-list>
+	  <md-list-item class="md-2-line">
+    	<div class="md-list-item-text" layout="row" layout-align="start center">
+      	<span flex="5">ID</span>
+      	<span flex="10">NAME</span>
+      	<span flex="10">LASTNAME</span>
+      	<span flex="30">EMAIL</span>
+      	<span flex="10">PASSWORD</span>
+    	</div>
+  	</md-list-item>
+		{{ user_ctrl.status }}
+  	<my-user-detail one-user="item" ng-repeat="item in user_ctrl.listaUsuarios"></my-user-detail>
+	</md-list>
+</md-content>

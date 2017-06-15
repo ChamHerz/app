@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+.marcado{
+	color: yellow;
+}
+
+.mi-view{
+	overflow: scroll;
+	height: 100%;
+}
+
+.col-id {
+	width: 100px;
+}
+
+.fila-usuario {
+	
+}
